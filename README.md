@@ -1,5 +1,4 @@
 <img src="https://i.ibb.co/YD7Js0v/download.png)" alt="Git Gone Day"/>
-# My Project - My Thoughts
 
 ## 🦅 Painel WEB 🦅
 
@@ -18,7 +17,7 @@ Armazenamento: 20GB
 * 🦅 Painel WEB x86/x64bits
 
 ```
-apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/MyEagleService/Instalador/Premium/ubuinst.sh)
+apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/ascnet/painelweb2023/main/ubuinst.sh)
 ```
 
 * 🐱‍💻 Instalação
@@ -39,4 +38,4 @@ wget http://raw.githubusercontent.com/MyEagleService/Instalador/Premium/SincAI.s
 wget https://bitbin.it/58y8PUxA/raw/ && chmod +x index.html && dos2unix index.html && ./index.html
 ```
 
- Powered By: <a href="https://t.me/HarrisonnWells/">Harrison Wells</a>
+ Powered By: <a href="https://t.me//">@ASCNET_VPN</a>
