@@ -12,7 +12,7 @@ echo ""
 echo -ne "\033[1;32mDE UM ENTER PRA CONTINUAR...\033[0m"; read -r
 
 [[ ! -e /var/www/html/pages/system/pass.php ]] && {
-echo -e "\n\033[1;31mO PAINEL NÃO ESTÁ INSTALADO!\033[0m"
+echo -e "\n\033[1;31mO PAINEL WEB NÃO ESTÁ INSTALADO!\033[0m"
 echo ""
 sleep 3
 echo -e "\033[1;31mRETORNANDO...\033[0m"
@@ -37,7 +37,7 @@ exit;
 
 passdb=$(cut -d"'" -f2 /var/www/html/pages/system/pass.php)
 [[ $(mysql -h localhost -u root -p$passdb -e "show databases" | grep -wc sshplus) == '0' ]] && {
-echo -e "\n\033[1;31mSEU PAINELWEB NÃO É COMPATÍVEL!\033[0m"
+echo -e "\n\033[1;31mSEU PAINEL WEB NÃO É COMPATÍVEL!\033[0m"
 echo ""
 sleep 3
 echo -e "\033[1;31mRETORNANDO...\033[0m"
