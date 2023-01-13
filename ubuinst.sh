@@ -138,7 +138,7 @@ cat /dev/null > ~/.bash_history && history -c
 rm /bin/ubuinst* > /dev/null 2>&1
 exit;
 else
-  echo -e 'by: @HarrisonnWells' >/usr/lib/telegram
+  echo -e 'by: @ASCNET_VPN' >/usr/lib/telegram
   msg -bar
   echo -e "\e[1;97m           \e[5m\033[1;100m   ATUALIZAÇÃO DO SISTEMA   \033[1;37m"
   msg -bar
@@ -328,8 +328,8 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
-echo -e "WEB GESTOR-SSH" | figlet
-echo -e "                              \033[1;31mBy @HarrisonnWells\033[1;36m"
+echo -e "WEB ASCNET" | figlet
+echo -e "                              \033[1;31mBy @ASCNET_VPN\033[1;36m"
 echo ""
 chave=$(curl -sSL "https://raw.githubusercontent.com/ascnet/painelweb2023/main/chave") &>/dev/null
 
