@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/ascnet/painelweb2023/main/correct.sql > /
 cd || exit
 clear
 echo ""
-echo -e "\033[1;33mADICIONAR BANCO DE DADOS CONECTA AO PAINELWEB GESTOR-SSH!\033[0m" 
+echo -e "\033[1;33mADICIONAR BANCO DE DADOS CONECTA AO PAINEL WEB ASCNET!\033[0m" 
 echo ""
 echo -ne "\033[1;32mDE UM ENTER PRA CONTINUAR...\033[0m"; read -r
 
@@ -37,7 +37,7 @@ exit;
 
 passdb=$(cut -d"'" -f2 /var/www/html/pages/system/pass.php)
 [[ $(mysql -h localhost -u root -p$passdb -e "show databases" | grep -wc sshplus) == '0' ]] && {
-echo -e "\n\033[1;31mSEU PAINELWEB NÃO É COMPATÍVEL!\033[0m"
+echo -e "\n\033[1;31mSEU PAINEL WEB NÃO É COMPATÍVEL!\033[0m"
 echo ""
 sleep 3
 echo -e "\033[1;31mRETORNANDO...\033[0m"
